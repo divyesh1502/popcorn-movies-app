@@ -1,0 +1,73 @@
+.latest-movies{
+    position: absolute;
+    width:100%;
+    height: 100%;
+   background-color: black;
+    margin-top: 500px;
+    padding: 0px 20px;
+}
+.latest-movies h1{
+    font-size: 20px;
+    color:rgb(18, 241, 241);
+    
+}
+.latest-container{
+    padding: 5px 0px;
+}
+.latest-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.latest-inside img{
+    height: 122px;
+    cursor: pointer;
+    padding: 4px;
+    transition: all 500ms ease-in-out;
+}
+.latest-inside img:hover{
+    transform: scale(1.2);
+}
+
+#carousel-container {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+#carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+/* Style the navigation buttons */
+.carousel-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+#prev {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
+
+.latest-inside img{
+    margin: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}

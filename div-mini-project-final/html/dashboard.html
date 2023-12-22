@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container mt-5" id="dashboardContent">
+    <h2>Welcome to the User Dashboard!</h2>
+    <p>This is a protected page. Only logged-in users can access this content.</p>
+    <button id="logout" class="btn btn-danger">Logout</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      var loggedInUser = sessionStorage.getItem('loggedInUser');
+
+      if (!loggedInUser) {
+        // User is not logged in, redirect to login page
+        window.location.href = 'login.html';
+      }
+
+      // Logout button click event
+      $('#logout').click(function() {
+        // Remove logged-in user session and redirect to login page
+        sessionStorage.removeItem('loggedInUser');
+        window.location.href = 'login.html';
+      });
+    });
+  </script>
+</body>
+</html>

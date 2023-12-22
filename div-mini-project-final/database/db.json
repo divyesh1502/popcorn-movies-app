@@ -1,0 +1,58 @@
+{
+  "movies": [
+    {
+      "title": "Movie 1",
+      "image": "cybage-project-final/images/hollywood/1.jpg",
+      "description": "Description of Movie 1."          
+    },
+    {
+      "title": "Movie 2",
+      "image": "/cybage-project-final/images/telugumovies/1.jpg",
+      "description": "Description of Movie 2."
+    },
+    {
+      "title": "Movie 3",
+      "image": "/cybage-project-final/images/telugumovies/3.jpg",
+      "description": "Description of Movie 3."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Song 1",
+      "image": "/cybage-project-final/images/telugumovies/5.jpg",
+      "artist": "Artist 1"
+    },
+    {
+      "title": "Song 2",
+      "image": "/cybage-project-final/images/telugumovies/6.jpg",
+      "artist": "Artist 2"
+    },
+    {
+      "title": "Song 3",
+      "image": "/cybage-project-final/images/telugumovies/9.jpg",
+      "artist": "Artist 3"
+    }
+  ],
+  "tvShows": [
+    {
+      "title": "1",
+      "image": "/cybage-project-final/images/telugumovies/10.jpg",
+      "description": "Description of TV Show 1."
+    },
+    {
+      "title": "Inception",
+      "image": "/cybage-project-final/images/telugumovies/4.jpg",
+      "description": "Description of TV Show 2."
+    },
+    {
+      "title": "Dangal",
+      "image": "/cybage-project-final/images/telugumovies/2.jpg",
+      "description": "Description of TV Show 3."
+    }
+  ],
+  "user":[
+    {
+      
+    }
+  ]
+}
